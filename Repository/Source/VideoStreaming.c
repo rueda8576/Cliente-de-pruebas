@@ -46,7 +46,7 @@ VmbError_t VideoStreaming(SOCKET* client_socket)
     char                confirmation[MAX_BUFFER_SIZE_OPT] = { 0 };
 
     struct sockaddr_in server_address;
-    server_address.sin_addr.s_addr      = inet_addr("192.168.1.20");    // Server IP (Raspberry Pi)
+    server_address.sin_addr.s_addr      = inet_addr("192.168.10.13");    // Server IP (Raspberry Pi)
     server_address.sin_family           = PF_INET;
     server_address.sin_port             = htons(SERVER_PORT);
     int server_address_len              = sizeof(server_address);
@@ -141,6 +141,8 @@ VmbError_t VideoStreaming(SOCKET* client_socket)
     VmbCaptureEnd(cameraHandle);
     VmbCameraClose(cameraHandle);
     VmbShutdown();
+
+    Sleep(2000);
 
     //Send confirmation to client stop acquisition
     memset(confirmation, 0, sizeof(confirmation));

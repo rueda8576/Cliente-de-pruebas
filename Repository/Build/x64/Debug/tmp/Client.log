@@ -1,108 +1,11 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: El directorio intermedio (C:\Users\luisj\OneDrive\TFG\Client\Repository\Build\x64\Debug\tmp\) contiene archivos compartidos de otro proyecto (Client-Portatil-MSI.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
-  Bitmap.c
-  f_client.c
-  GetFeatures.c
-  Get_Frame.c
-  main_client.c
-  PrintFeatures.c
-  pruebas_client.c
   VideoStreaming.c
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(63,60): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(63,47): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(75,43): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(85,64): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(85,51): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(102,57): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(102,44): warning C4024: 'sendto': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(102,73): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(166,49): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(166,36): warning C4024: 'sendto': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(166,65): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(26,43): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(33,30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(34,30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(55,40): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(3,81): warning C4028: parámetro formal 3 distinto de la declaración
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(143,52): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\PrintFeatures.c(3,61): warning C4028: parámetro formal 2 distinto de la declaración
 C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\VideoStreaming.c(70,40): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(55,27): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\PrintFeatures.c(3,81): warning C4028: parámetro formal 3 distinto de la declaración
 C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\VideoStreaming.c(70,27): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(153,44): warning C4047: 'función': 'SOCKET *' es distinto en los niveles de direccionamiento indirecto de 'SOCKET'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(19,40): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(65,40): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\PrintFeatures.c(10,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(19,27): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(153,31): warning C4024: 'Get_Frame': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(65,27): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(35,30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\VideoStreaming.c(143,29): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(163,49): warning C4047: 'función': 'SOCKET *' es distinto en los niveles de direccionamiento indirecto de 'SOCKET'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(35,19): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\VideoStreaming.c(143,16): warning C4024: 'sendto': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(84,44): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(163,36): warning C4024: 'VideoStreaming': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(38,44): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(84,31): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\VideoStreaming.c(143,45): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(38,31): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(173,21): warning C4013: 'GetFeatures' sin definir; se supone que extern devuelve como resultado int
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(102,37): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(47,44): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(183,21): warning C4013: 'PrintFeatures' sin definir; se supone que extern devuelve como resultado int
+C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\VideoStreaming.c(150,29): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
+C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\VideoStreaming.c(150,16): warning C4024: 'sendto': tipos distintos para el parámetro formal y el parámetro real 1
+C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\VideoStreaming.c(150,45): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
 C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\VideoStreaming.c(49,43): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(102,24): warning C4024: 'sendto': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(47,31): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(193,51): warning C4047: 'función': 'SOCKET *' es distinto en los niveles de direccionamiento indirecto de 'SOCKET'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(209,40): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(102,53): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(193,38): warning C4024: 'HDR_2KP_AUTO_ALL': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(209,27): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(56,44): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(203,52): warning C4047: 'función': 'SOCKET *' es distinto en los niveles de direccionamiento indirecto de 'SOCKET'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(203,39): warning C4024: 'WhiteBalance_Scan': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(249,43): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(56,31): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(12,43): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(259,64): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\Get_Frame.c(17,43): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\GetFeatures.c(12,39): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(259,51): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(123,47): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(276,57): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(82,10): warning C4101: 'message': variable local sin referencia
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(276,44): warning C4024: 'sendto': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(59,9): warning C4101: 'bytes_sent': variable local sin referencia
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(276,73): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(89,15): warning C4101: 'bitmap': variable local sin referencia
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(86,9): warning C4101: 'i': variable local sin referencia
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(340,49): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(80,9): warning C4101: 'num_packets': variable local sin referencia
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(340,36): warning C4024: 'sendto': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\main_client.c(58,9): warning C4101: 'bytes_recv': variable local sin referencia
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(340,65): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(202,43): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(221,30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(222,30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(223,30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(399,48): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(399,35): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(411,31): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(421,52): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(421,39): warning C4024: 'recvfrom': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(438,45): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(438,32): warning C4024: 'sendto': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(438,61): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(502,37): warning C4047: 'función': 'SOCKET' es distinto en los niveles de direccionamiento indirecto de 'SOCKET *'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(502,24): warning C4024: 'sendto': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(502,53): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(374,39): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(381,30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(382,30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(350): warning C4715: 'HDR_2KP_AUTO_ONCE': no todas las rutas de acceso de control devuelven un valor
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(509): warning C4715: 'WhiteBalance_Scan': no todas las rutas de acceso de control devuelven un valor
-C:\Users\luisj\OneDrive\TFG\Client\Repository\Source\pruebas_client.c(176): warning C4715: 'HDR_2KP_AUTO_ALL': no todas las rutas de acceso de control devuelven un valor
   Client.vcxproj -> C:\Users\luisj\OneDrive\TFG\Client\Repository\Build\x64\Debug\Client.exe
   C:\Program Files\Allied Vision\Vimba_6.0\\VimbaC\Bin\Win64\VimbaC.dll
   C:\Program Files\Allied Vision\Vimba_6.0\\VimbaC\Bin\Win64\VimbaC.xml

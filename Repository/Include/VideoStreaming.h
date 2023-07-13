@@ -16,6 +16,7 @@
 #define MAX_BUFFER_SIZE_OPT			1024
 #define MAX_BUFFER_SIZE_FRAME		4004572
 
+
 /**
  * @brief Sends the command of starting video streaming to the camera handler, start the capture acquisistion and displays the avarage FPS every frame captured
  * @param client_socket client_socket UDP socket created to comunicate with the camera handler

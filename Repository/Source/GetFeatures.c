@@ -9,7 +9,7 @@ VmbError_t GetFeatures(SOCKET* client_socket, VmbUint32_t* nFeatures, Feature** 
 
     struct sockaddr_in server_address;
 
-    server_address.sin_addr.s_addr  = inet_addr("192.168.1.20");     // Server IP (Raspberry Pi)
+    server_address.sin_addr.s_addr  = inet_addr("192.168.10.13");     // Server IP (Raspberry Pi)
     server_address.sin_family       = PF_INET;
     server_address.sin_port         = htons(SERVER_PORT);
     int server_address_len          = sizeof(server_address);

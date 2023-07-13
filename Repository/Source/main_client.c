@@ -120,7 +120,7 @@ int main(int argc, char *argv[])
 
     // Set server address
     //192.168.1.20
-    server_address.sin_addr.s_addr          = inet_addr("192.168.1.20"); // Server IP (Raspberry Pi)
+    server_address.sin_addr.s_addr          = inet_addr("192.168.10.13"); // Server IP (Raspberry Pi)
     server_address.sin_family               = PF_INET;
     server_address.sin_port                 = htons(SERVER_PORT);
 
